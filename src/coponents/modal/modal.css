@@ -22,12 +22,66 @@
   padding: 20px;
   border-radius: 12px;
   background-color: white;
-  width: 250px;
-  height: 250px;
+  width: 400px;
+  height: 400px;
   transition: 0.4s all;
   transform: scale(0.5);
 }
 
 .modal__content.active {
   transform: scale(1);
+}
+
+.block-input-name {
+  width: 400px;
+  height: 30px;
+  background-color: #e6e6e6;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.block-input-name input {
+  background-color: #e6e6e6;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  width: 390px;
+}
+
+.block-input-title {
+  width: 400px;
+  height: 200px;
+  background-color: #e6e6e6;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.block-input-title textarea {
+  background-color: #e6e6e6;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  resize: none;
+  font-family: 'Roboto', sans-serif;
+  height: 190px;
+  width: 400px;
+}
+
+.add-content {
+  width: 250px;
+  background-color: #6fb555;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 50px auto;
+  cursor: pointer;
+}
+
+.add-content:active {
+  background-color: #5fb127;
+  box-shadow: 0px 0px 15px 9px rgba(18, 24, 21, 0.15);
 }

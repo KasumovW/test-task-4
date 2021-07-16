@@ -94,7 +94,7 @@ body {
 .button {
   width: 220px;
   margin: auto;
-  margin-top: 50px;
+  margin-top: 30px;
   height: 40px;
   border-radius: 50px;
   text-align: center;
@@ -103,7 +103,7 @@ body {
   justify-content: center;
   background-color: #6fb555;
   color: white;
-  font-weight: 500;
+  font-weight: 300;
   font-size: 26px;
   cursor: pointer;
 }
@@ -207,53 +207,9 @@ body {
   justify-content: center;
 }
 
-.block-input-name {
-  width: 250px;
-  height: 30px;
-  background-color: #e6e6e6;
-  display: flex;
-  align-items: center;
-  margin-bottom: 20px;
-  border-radius: 5px;
-}
-
-.block-input-name input {
-  background-color: #e6e6e6;
-  border: none;
-  outline: none;
-  font-size: 18px;
-}
-
-.block-input-title {
-  width: 250px;
-  height: 110px;
-  background-color: #e6e6e6;
-  display: flex;
-  align-items: center;
-  border-radius: 5px;
-}
-
-.block-input-title textarea {
-  background-color: #e6e6e6;
-  border: none;
-  outline: none;
-  font-size: 18px;
-  resize: none;
-  font-family: 'Roboto', sans-serif;
-}
-
-.add-content {
-  width: 100px;
-  background-color: #6fb555;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  border-radius: 10px;
-  margin: 50px auto;
-  cursor: pointer;
-}
-
-.add-content:active {
-  background-color: #5fb127;
-  box-shadow: 0px 0px 15px 9px rgba(18, 24, 21, 0.15);
+.error {
+  font-size: 12px;
+  color: red;
+  margin-left: 50px;
+  margin-top: 10px;
 }

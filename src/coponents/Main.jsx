@@ -10,59 +10,61 @@ function Main() {
           <div className='contacts-tile'>Контакты</div>
           <div className='add-contact' onClick={() => setModalActive(true)}> Добавить контакт</div>
         </div>
-        <div className='d-flex'>
-          <div className='block-contacts'>
-            <div className='block-img-user'></div>
-            <div className='head-block-data'>
-              <div> <span>Имя:</span> John</div>
-              <div> <span>id:</span> 1</div>
-              <div><span>Текст:</span> Lorem ipsum dolor sit amet</div>
+        <div className='scroll-bar'>
+          <div className='d-flex'>
+            <div className='block-contacts'>
+              <div className='block-img-user'></div>
+              <div className='head-block-data'>
+                <div> <span>Имя:</span> John</div>
+                <div> <span>id:</span> 1</div>
+                <div><span>Текст:</span> Lorem ipsum dolor sit amet</div>
+              </div>
+              <div className='exit'>✖</div>
             </div>
-            <div className='exit'>✖</div>
           </div>
-        </div>
-        <div className='d-flex'>
-          <div className='block-contacts'>
-            <div className='block-img-user'></div>
-            <div className='head-block-data'>
-              <div> <span>Имя:</span> John</div>
-              <div> <span>id:</span> 1</div>
-              <div><span>Текст:</span> Lorem ipsum dolor sit amet</div>
+          <div className='d-flex'>
+            <div className='block-contacts'>
+              <div className='block-img-user'></div>
+              <div className='head-block-data'>
+                <div> <span>Имя:</span> John</div>
+                <div> <span>id:</span> 1</div>
+                <div><span>Текст:</span> Lorem ipsum dolor sit amet</div>
+              </div>
+              <div className='exit'>✖</div>
             </div>
-            <div className='exit'>✖</div>
           </div>
-        </div>
-        <div className='d-flex'>
-          <div className='block-contacts'>
-            <div className='block-img-user'></div>
-            <div className='head-block-data'>
-              <div> <span>Имя:</span> John</div>
-              <div> <span>id:</span> 1</div>
-              <div><span>Текст:</span> Lorem ipsum dolor sit amet</div>
+          <div className='d-flex'>
+            <div className='block-contacts'>
+              <div className='block-img-user'></div>
+              <div className='head-block-data'>
+                <div> <span>Имя:</span> John</div>
+                <div> <span>id:</span> 1</div>
+                <div><span>Текст:</span> Lorem ipsum dolor sit amet</div>
+              </div>
+              <div className='exit'>✖</div>
             </div>
-            <div className='exit'>✖</div>
           </div>
-        </div>
-        <div className='d-flex'>
-          <div className='block-contacts'>
-            <div className='block-img-user'></div>
-            <div className='head-block-data'>
-              <div> <span>Имя:</span> John</div>
-              <div> <span>id:</span> 1</div>
-              <div><span>Текст:</span> Lorem ipsum dolor sit amet</div>
+          <div className='d-flex'>
+            <div className='block-contacts'>
+              <div className='block-img-user'></div>
+              <div className='head-block-data'>
+                <div> <span>Имя:</span> John</div>
+                <div> <span>id:</span> 1</div>
+                <div><span>Текст:</span> Lorem ipsum dolor sit amet</div>
+              </div>
+              <div className='exit'>✖</div>
             </div>
-            <div className='exit'>✖</div>
           </div>
-        </div>
-        <div className='d-flex'>
-          <div className='block-contacts'>
-            <div className='block-img-user'></div>
-            <div className='head-block-data'>
-              <div> <span>Имя:</span> John</div>
-              <div> <span>id:</span> 1</div>
-              <div><span>Текст:</span> Lorem ipsum dolor sit amet</div>
+          <div className='d-flex'>
+            <div className='block-contacts'>
+              <div className='block-img-user'></div>
+              <div className='head-block-data'>
+                <div> <span>Имя:</span> John</div>
+                <div> <span>id:</span> 1</div>
+                <div><span>Текст:</span> Lorem ipsum dolor sit amet</div>
+              </div>
+              <div className='exit'>✖</div>
             </div>
-            <div className='exit'>✖</div>
           </div>
         </div>
       </div>
