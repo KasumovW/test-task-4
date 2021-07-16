@@ -1,0 +1,259 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(90deg, #4c59c9 10%, #b85abb 100%);
+  font-family: 'Roboto', sans-serif;
+}
+
+.white-block-auth {
+  background-color: white;
+  width: 700px;
+  height: 500px;
+  border-radius: 5px;
+  margin: 10% auto;
+  align-items: center;
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.block-img {
+  background-image: url("https://cdn1.ozone.ru/graphics/subscribe/pl/20210114_marketing-11748_img2.png");
+  width: 250px;
+  height: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 15px;
+}
+
+.block-auth-right {
+  width: 350px;
+  height: 400px;
+}
+
+.title-auth {
+  text-align: center;
+  font-weight: 500;
+  font-size: 28px;
+  margin-top: 70px;
+}
+
+.block-input-one {
+  width: 220px;
+  height: 35px;
+  background-color: #e6e6e6;
+  margin-top: 40px;
+  border-radius: 15px;
+  display: flex;
+}
+
+.block-input-two {
+  width: 220px;
+  height: 35px;
+  background-color: #e6e6e6;
+  margin-top: 10px;
+  border-radius: 15px;
+  display: flex;
+}
+
+.auth-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input-one {
+  height: 22px;
+  margin: auto;
+  border: none;
+  outline: none;
+  margin-left: 0;
+  background-color: #e6e6e6;
+}
+
+.email {
+  margin: auto;
+  color: black;
+}
+
+.input-two {
+  height: 22px;
+  margin: auto;
+  border: none;
+  outline: none;
+  margin-left: 0;
+  background-color: #e6e6e6;
+}
+
+.lock {
+  margin: auto;
+  color: black;
+}
+
+.button {
+  width: 220px;
+  margin: auto;
+  margin-top: 50px;
+  height: 40px;
+  border-radius: 50px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  background-color: #6fb555;
+  color: white;
+  font-weight: 500;
+  font-size: 26px;
+  cursor: pointer;
+}
+
+.button:active {
+  background: #5fb127;
+  box-shadow: 0px 0px 15px 9px rgba(18, 24, 21, 0.15);
+}
+
+.block-main {
+  width: 1000px;
+  height: 600px;
+  background-color: white;
+  border-radius: 5px;
+  margin: 7% auto;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow-x: auto;
+}
+
+.contacts-tile {
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  margin-left: 350px;
+}
+
+.block-contacts {
+  width: 600px;
+  height: 200px;
+  box-shadow: 0px 0px 8px 5px rgba(34, 60, 80, 0.2);
+  margin-top: 20px;
+  word-break: break-word;
+  overflow-x: auto;
+  display: flex;
+}
+
+.block-img-user {
+  background-image: url("https://i.ya-webdesign.com/images/male-head-silhouette-png-2.png");
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+
+.exit {
+  margin-right: 5px;
+  text-align: end;
+  cursor: pointer;
+}
+
+.head-block-data {
+  width: 350px;
+  margin: auto;
+  margin-top: 60px;
+}
+
+.head-block-data > div {
+  text-align: start;
+  word-break: break-all;
+}
+
+.head-block-data > div > span {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.d-flex {
+  display: flex;
+  justify-content: center;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.add-contact {
+  background-color: #6fb555;
+  width: 170px;
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+  padding-top: 8px;
+  box-sizing: border-box;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-left: 200px;
+}
+
+.add-contact:active {
+  background: #5fb127;
+  box-shadow: 0px 0px 15px 9px rgba(18, 24, 21, 0.15);
+}
+
+.block-title-head {
+  display: flex;
+  justify-content: center;
+}
+
+.block-input-name {
+  width: 250px;
+  height: 30px;
+  background-color: #e6e6e6;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.block-input-name input {
+  background-color: #e6e6e6;
+  border: none;
+  outline: none;
+  font-size: 18px;
+}
+
+.block-input-title {
+  width: 250px;
+  height: 110px;
+  background-color: #e6e6e6;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+}
+
+.block-input-title textarea {
+  background-color: #e6e6e6;
+  border: none;
+  outline: none;
+  font-size: 18px;
+  resize: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.add-content {
+  width: 100px;
+  background-color: #6fb555;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 50px auto;
+  cursor: pointer;
+}
+
+.add-content:active {
+  background-color: #5fb127;
+  box-shadow: 0px 0px 15px 9px rgba(18, 24, 21, 0.15);
+}
