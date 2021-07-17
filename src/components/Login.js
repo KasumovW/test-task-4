@@ -12,7 +12,7 @@ function Login() {
     dispatch(loginStart(login, pass));
   };
 
-  const error = useSelector(state => state.auth.errorMessage);
+  const error = useSelector((state) => state.auth.errorMessage);
 
   return (
     <div>

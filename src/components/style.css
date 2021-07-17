@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background: linear-gradient(90deg, #4c59c9 10%, #b85abb 100%);
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 
 .white-block-auth {
@@ -118,7 +118,7 @@ body {
   height: 600px;
   background-color: white;
   border-radius: 5px;
-  margin: 7% auto;
+  margin: auto;
   padding: 20px;
   box-sizing: border-box;
   overflow-x: auto;
@@ -128,7 +128,6 @@ body {
   font-size: 30px;
   font-weight: 500;
   text-align: center;
-  margin-left: 350px;
 }
 
 .block-contacts {
@@ -148,7 +147,10 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  margin-top: 40px;
+  margin-top: 30px;
+}
+
+.block-head-img-user {
   margin-left: 20px;
 }
 
@@ -194,7 +196,6 @@ body {
   box-sizing: border-box;
   border-radius: 50px;
   cursor: pointer;
-  margin-left: 200px;
 }
 
 .add-contact:active {
@@ -204,7 +205,13 @@ body {
 
 .block-title-head {
   display: flex;
-  justify-content: center;
+  background-color: white;
+  border-radius: 5px;
+  width: 1000px;
+  padding: 10px;
+  box-sizing: border-box;
+  justify-content: space-evenly;
+  margin: 50px auto;
 }
 
 .error {
@@ -212,4 +219,21 @@ body {
   color: red;
   margin-left: 50px;
   margin-top: 10px;
+}
+
+.create {
+  text-align: center;
+  color: white;
+  font-size: 12px;
+  padding: 5px;
+  margin: auto;
+  width: 70px;
+  cursor: pointer;
+  background-color: #6fb555;
+  border-radius: 50px;
+}
+
+.create:active {
+  background: #5fb127;
+  box-shadow: 0px 0px 15px 9px rgba(18, 24, 21, 0.15);
 }

@@ -2,7 +2,7 @@ const initialState = {
   token: "",
   authorizing: false,
   errorMessage: null,
-}
+};
 
 export const auth = (state = initialState, actions) => {
   switch (actions.type) {
@@ -31,4 +31,4 @@ export const auth = (state = initialState, actions) => {
     default:
       return state;
   }
-}
+};
