@@ -1,7 +1,7 @@
 export const loginStart = () => (dispatch) => {
   dispatch({ type: "auth/started" });
 
-  fetch("http://localhost:3001/admin")
+  fetch("/admin")
     .then((response) => response.json())
     .then((json) => {
       const random = Math.random();
@@ -17,7 +17,7 @@ export const loginStart = () => (dispatch) => {
 export const loadUsers = () => (dispatch) => {
   dispatch({ type: "load/users/start" });
 
-  fetch("http://localhost:3001/users")
+  fetch("/users")
     .then((response) => response.json())
     .then((json) => {
       dispatch({ type: "load/users/success", payload: json });
@@ -27,7 +27,7 @@ export const loadUsers = () => (dispatch) => {
 export const deleteU = (id) => (dispatch) => {
   dispatch({ type: "delete/load/start" });
 
-  fetch(`http://localhost:3001/users/${id}`, {
+  fetch(`/users/${id}`, {
     method: "DELETE",
   })
     .then((response) => response.json())
@@ -40,7 +40,7 @@ export const addUser = (name, title) => (dispatch) => {
   const random = Math.random();
   dispatch({ type: "add/load/start" });
 
-  fetch("http://localhost:3001/users", {
+  fetch("/users", {
     method: "POST",
     headers: {
       Accept: "application/json",
@@ -61,7 +61,7 @@ export const addUser = (name, title) => (dispatch) => {
 export const createU = (id, name, title, nameC, titleC) => (dispatch) => {
   dispatch({ type: "load/create/start", payload: id });
 
-  fetch(`http://localhost:3001/${id}`, {
+  fetch(`/${id}`, {
     method: "PATCH",
     body: JSON.stringify({ name: nameC, title: titleC, id: id }),
     headers: { "content-type": "application/json" },
