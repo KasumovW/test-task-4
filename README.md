@@ -1,7 +1,5 @@
 ## Данный проект тестовое здание от компании: Takeoff Staff
 
-### Демо версия -<a href="https://trello-test-task.herokuapp.com" target="_blank"> проекта</a>
-
 ---
 
 ### Технологии проекта:

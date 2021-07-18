@@ -1,0 +1,14 @@
+{
+  "users": [
+    {
+      "name": "Проверка",
+      "title": "Работает",
+      "id": 0.16484196412142138
+    }
+  ],
+  "admin": {
+    "login": "admin",
+    "password": "password",
+    "token": "token"
+  }
+}
